@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Ice Cream</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff7fb;
+        }
+        header {
+            background: #ff4da6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 40px;
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        select, input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 12px 25px;
+            border: none;
+            background: #ff4da6;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        footer {
+            background: #ff4da6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>Buy Your Favourite Ice Cream</header>
+
+<div class="container">
+    <h2>Select Ice Cream</h2>
+
+    <select>
+        <option>Chocobar - ₹40</option>
+        <option>Vanilla Cone - ₹30</option>
+        <option>Sundae - ₹99</option>
+        <option>Matka Ice Cream - ₹120</option>
+        <option>Special Mix - ₹150</option>
+    </select>
+
+    <input type="number" placeholder="Enter Quantity" />
+
+    <button onclick="location.href='payment.html'">Proceed to Payment</button>
+</div>
+
+<footer>
+    © 2025 Amol Ice Cream. All Rights Reserved.
+</footer>
+
+</body>
+</html>
